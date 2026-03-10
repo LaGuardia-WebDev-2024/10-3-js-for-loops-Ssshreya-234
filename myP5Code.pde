@@ -5,9 +5,10 @@ setup = function() {
   stroke(173, 222, 237);
 
   var i = 0;
-  while (i < 400) {
-      line(0, i, 400, i);
-      i+=20;
+ 
+  //for(startl; how long: change)
+  for (var x = 63; x <313; x += 41){
+    line(0, x, 400, x);
   }
 }
 
